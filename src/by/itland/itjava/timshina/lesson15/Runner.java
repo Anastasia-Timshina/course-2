@@ -33,7 +33,7 @@ public class Runner {
 
         myListSecondInteger.set(2, 1);
         System.out.println(myListSecondInteger);
-        //System.out.println(myListSecondInteger.get(1));
-        //мой метод get(T) не хочет использоваться
+        System.out.println(myListSecondInteger.indexOf(1));
+
     }
 }

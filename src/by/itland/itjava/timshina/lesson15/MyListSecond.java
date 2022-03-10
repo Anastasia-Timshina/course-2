@@ -38,7 +38,7 @@ public class MyListSecond<T> {
             newArr[i] = array[i+1];
         }
         array = newArr;
-        capacity--;
+        current--;
     }
 
     public int getCapacity(){
@@ -80,7 +80,7 @@ public class MyListSecond<T> {
                 newArr[i] = array[i];
             }
             newArr[index] = element;
-            for (int i = index + 1; i < array.length; i++) {
+            for (int i = index + 1; i <= array.length; i++) {
                 newArr[i] = array[i - 1];
             }
             array = newArr;
@@ -94,7 +94,7 @@ public class MyListSecond<T> {
                 newArr[i] = array[i];
             }
             newArr[index] = element;
-            for (int i = index + 1; i < array.length; i++) {
+            for (int i = index + 1; i <= array.length; i++) {
                 newArr[i] = array[i - 1];
             }
             array = newArr;
@@ -144,7 +144,7 @@ public class MyListSecond<T> {
          array = newArr;
          return true;
      }
-     public int get(T element){
+     public int indexOf(T element){
          int number = -1;
          for (int i = 0; i < array.length; i++) {
              if(array[i] == element){
