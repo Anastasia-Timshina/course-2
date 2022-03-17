@@ -2,7 +2,7 @@ package by.itland.itjava.timshina.lesson14_2;
 
 public class Runner {
     public static void main(String[] args) {
-        Var scalar = new Scalar("5");
+       /* Var scalar = new Scalar("5");
         Var scalar2 = new Scalar("5");
         Var vector = new Vector("{1, 2, 3}");
         Var vector2 = new Vector((Vector) vector);
@@ -47,7 +47,7 @@ public class Runner {
         System.out.println(matrix.sub(vector));
         System.out.println(matrix.mul(vector));
         System.out.println(matrix.div(vector));
-
+*/
     }
 
    /* public static void main(String[] args) {
