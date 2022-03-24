@@ -9,6 +9,7 @@
       <excludeFolder url="file://$MODULE_DIR$/src/by/itland/itjava/bulatsky" />
       <excludeFolder url="file://$MODULE_DIR$/src/by/itland/itjava/drobyazko" />
       <excludeFolder url="file://$MODULE_DIR$/src/by/itland/itjava/naumenko/lesson07" />
+      <excludeFolder url="file://$MODULE_DIR$/src/by/itland/itjava/timshina/lesson15" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
